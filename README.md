@@ -10,7 +10,7 @@ El algoritmo usado para la generación emplea operaciones bit-wise simples en di
 
 _Nota: Esto introduce limitaciones sujetas a la longitud del mensaje a enviar. Si su longitud es mayor a 4 caracteres, no es posible extraee el contenido del mensaje recibido. Si la longitud es mayor a 7 caracteres, el algoritmo no funciona, ya que la cadena - incluyendo los bits de paridad - debe ser de menos de 64 bits. Estas cuestiones pueden ser resueltas mejorando el algoritmo._
 
-```
+```C#
 
 public class HammingBlock
 {
