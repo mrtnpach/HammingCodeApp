@@ -1,7 +1,9 @@
 # HammingCodeApp
 Calculadora de **código Hamming**[^1] desarrollada en .NET Core 3.1 y Windows Forms.
 
-![Captura de pantalla de la calculadora de código Hamming](https://i.imgur.com/BdI6D2R.png)
+<p align="center">
+  <img src="https://i.imgur.com/BdI6D2R.png" alt="Captura de pantalla de la calculadora de código Hamming"  width=70% height=70%>
+</p>
 
 La aplicación simula la generación del código Hamming en el emisor y su posterior decodificación en el receptor. Es posible introducir ruido en el canal de comunicación, produciendo un error de 1 bit sobre una posición aleatoria.
 El receptor es capaz de determinar la posición del error.
